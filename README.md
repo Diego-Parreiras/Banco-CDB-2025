@@ -99,20 +99,16 @@ O projeto consiste em uma **API REST** desenvolvida com **Java + Spring Boot** q
 
 ## ▶️ Como Executar
 
-```bash
-# Clone o projeto
-git clone https://github.com/seu-usuario/banco-digital.git
 
-# Acesse o diretório do projeto
-cd banco-digital
+## 🔍Clone o projeto
+    https://github.com/Diego-Parreiras/Banco-CDB-2025
 
-# Compile e execute
-./mvnw spring-boot:run
+
+📌Acesse o console do banco de dados H2:
 ```
-Acesse o console do banco de dados H2:
-📌 http://localhost:8080/h2-console
+http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:SpringDiego
 Usuário: sa
 Senha: (em branco)
-
+```
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
