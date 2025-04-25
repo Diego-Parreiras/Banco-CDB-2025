@@ -19,7 +19,7 @@ O projeto consiste em uma **API REST** desenvolvida com **Java + Spring Boot** q
   - CPF único e válido.
   - Nome com letras e espaços, 2 a 100 caracteres.
   - Data de nascimento válida e maior de 18 anos.
-  - Endereço completo com CEP válido (xxxxx-xxx).
+  - Endereço completo com CEP formatado (xxxxx-xxx).
 
 ### 🏦 Contas
 - Criação de contas Corrente e Poupança.
@@ -93,7 +93,8 @@ O projeto consiste em uma **API REST** desenvolvida com **Java + Spring Boot** q
 
 - Interface Web (Frontend)
 - Autenticação por token (JWT)
-- Integração com APIs externas (validação CPF, câmbio)
+- Integração com APIs externas (validação CPF, validacao cep, câmbio)
+
 
 ---
 
